@@ -17,14 +17,16 @@ img {
   background: #519251;
   color:white;
   text-align:center;
+  padding-top:10px;
 }
 
 header {
-  height: 400px;
+  height: 250px;
   background-image: url("https://www.mylinea.com/wp-content/uploads/amazing-nature-wallpaper-28.jpg");
   background-position: bottom;
-  padding-top:75px;
+  padding-top:125px;
 }
+
 
 .clearfix::after {
   content: " ";
@@ -34,8 +36,9 @@ header {
 
 .headertext {
   text-align:center;
-  padding-top:75px;
+  padding-top:0px;
   color:white;
+  font-family:helvetica;
 }
 
 .whitespace {
@@ -48,9 +51,26 @@ header {
   text-align:center;
 }
 
+ul {
+  padding:0;
+}
+
 li {
   padding-top:5px;
   padding-bottom:5px;
+  border:1px solid lightgrey;
+  background:#f7f7f7;
+  height:25px;
+}
+
+button {
+  margin-top: 5%;
+  border-radius: 5em;
+}
+
+.buttonbox {
+  height:50px;
+  background:white;
 }
 
 .bluebox {
@@ -58,6 +78,7 @@ li {
   background: #2c4985;
   color:white;
   text-align:center;
+  padding-top:10px;
 }
 
 .blackbox {
@@ -65,10 +86,15 @@ li {
     background: black;
     color:white;
     text-align:center;
+    padding-top:10px;
 }
 
 .textcontent {
-  text-align:center;
+  text-align:left;
+}
+
+p {
+  border: 10px solid white;
 }
 
 footer {
@@ -77,6 +103,10 @@ footer {
   color:grey;
   text-align: center;
   padding-top:10px;
+}
+
+.opaquetext {
+  opacity:0.5;
 }
 
 @media (min-width:479px){
